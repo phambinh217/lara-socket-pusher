@@ -12,6 +12,7 @@ use App\WebSocket\Pusher;
 use React\Socket\Server;
 use React\ZMQ\Context;
 use ZMQ;
+use Exception;
 
 class PusherServeCommand extends Command
 {
