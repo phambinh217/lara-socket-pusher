@@ -8,7 +8,7 @@ use Ratchet\Server\IoServer;
 use Ratchet\WebSocket\WsServer;
 use React\EventLoop\Factory as LoopFactory;
 use React\Socket\Server as Reactor;
-use App\WebSocket\Pusher;
+use Phambinh\LaraSocketPusher\WebSocket\Pusher;
 use React\Socket\Server;
 use React\ZMQ\Context;
 use ZMQ;
